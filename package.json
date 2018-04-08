@@ -1,10 +1,10 @@
 {
   "name": "comlinkjs",
-  "version": "2.3.3",
+  "version": "2.3.5",
   "description": "",
   "main": "comlink.umd.js",
   "module": "comlink.es6.js",
-  "typings": "comlink.d.ts",
+  "types": "comlink.d.ts",
   "scripts": {
     "test": "npm run linter && npm run unittest && npm run build",
     "unittest": "karma start",
@@ -33,11 +33,15 @@
       "email": "ikilpatrick@google.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogleChromeLabs/comlink.git"
+  },
   "license": "Apache-2.0",
   "devDependencies": {
-    "babel-minify": "0.3.0",
+    "babel-minify": "0.4.0",
     "chai": "4.1.2",
-    "eslint": "4.18.1",
+    "eslint": "4.19.1",
     "eslint-config-google": "0.9.1",
     "karma": "2.0.0",
     "karma-chai": "0.1.0",
@@ -46,8 +50,8 @@
     "karma-mocha": "1.3.0",
     "karma-safari-launcher": "1.0.0",
     "karma-typescript": "3.0.12",
-    "mocha": "5.0.1",
-    "typescript": "2.7.2",
+    "mocha": "5.0.5",
+    "typescript": "2.8.1",
     "typescript-eslint-parser": "14.0.0"
   },
   "dependencies": {}
